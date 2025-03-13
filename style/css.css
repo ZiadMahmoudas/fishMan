@@ -91,15 +91,15 @@ body{
 }
 
  header .navbar .collect .swap-nav {
-    width:53%;
+    width:69%;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
  header .navbar .collect .swap-nav .navbar-brand {
     margin-right: 0;
-    width: 239px;
+    width: 148px;
 }
 
  header .navbar .collect .swap-nav .navbar-collapse {
@@ -392,7 +392,7 @@ header .navbar .collect .swap-nav .navbar-collapse .navbar-nav li .nav-link:hove
     width: 100%;
 }
 .All-pic{
-    border-radius: 20%;
+    border-radius: 7%;
     height: 100%;
 }
 .cards{
@@ -837,7 +837,10 @@ transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
         flex-wrap: nowrap;
         justify-content: space-evenly;
     }
-
+    .All-pic{
+        border-radius: 14%;
+        height: 100%;
+    }
      header .navbar .collect .swap-nav .navbar-collapse {
         width: auto;
         position: static;
@@ -979,6 +982,11 @@ transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
  .parts .dish img{
     width: 50%;
 }
+header .navbar .collect .swap-nav .navbar-brand {
+    margin-right: 0;
+    width: 220px;
+}
+
 }
 @media (min-width:1115px) {
     
